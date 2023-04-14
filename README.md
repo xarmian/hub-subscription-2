@@ -1,4 +1,4 @@
-Reach.sh Subscription Challenge
+Reach.sh Subscription Challenge - Level 2
 
 This contract acts as a subscription stream,
 where multiple users (wallets) can subscribe simultaneously.
@@ -18,3 +18,9 @@ Concepts Demonstrated:
 - Adding additional funds to active subscriptions
 - Views for parameters and user balances
 - Events for subscriptions and cancellations
+
+Deviation from Initial Spec
+- The Level 2 spec sheet specifies that a year's worth of tokens should be transferred
+to the contract when a user subscribes. This contract takes a slightly different approach
+by allowing a user to subscribe with any amount of tokens (> 0) and top-up their
+subscription on an ongoing basis.
